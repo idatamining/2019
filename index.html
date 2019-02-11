@@ -18,11 +18,10 @@ table {
 }
 
 th, td {
-  text-align: left;
-  padding: 8px;
+  border-bottom: 1px solid #ddd;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
+tr:hover {background-color:#f5f5f5;}
 </style>
 	  
     <!-- Bootstrap core CSS -->
@@ -73,53 +72,74 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 
 <table>
   <tr>
-  <th>Time</th>
-  <th></th>
-  <th>Title</th>
+  <th style="width:10%">Time</th>
+  <th style="width:10%"></th>
+  <th style="width:80%">Title</th>
+  </tr>
+	<tr>
+  <td rowspan='2'>1:30 - 2:15</td>
+  <td rowspan='2'>Keynote</td>
+  <td>Interactive Visual Data Mining of Big Complex Networks</td>
   </tr>
   <tr>
-  <td>1:30 - 2:15</td>
-  <td>Keynote</td>
-  <td><tr>Interactive Visual Data Mining of Big Complex Networks</tr>
-<tr>Seokhee Hong, University of Sydney</tr>
-</td>
+    <td>Seokhee Hong, University of Sydney</td>
+  </tr>  
+	
+<tr>
+  <td rowspan='2'>2:15 - 2:35</td>
+  <td rowspan='2'>Paper</td>
+  <td>Smart Farm: A System for Proactive Management of Raw Milk Quality</td>
   </tr>
   <tr>
-  <td>2:15 - 2:35</td>
-  <td>Paper</td>
-  <td>$150</td>
+    <td>Atefe Zakeri, Morteza Saberi, Saeed Aboutalebi, Omar Hussain and Elizabeth Chang</td>
+  </tr>  	
+
+	<tr>
+  <td rowspan='2'>  2:35 - 2:55 </td>
+  <td rowspan='2'>Paper</td>
+  <td>Interactive Clustering for Exploring Multiple Data Streams at Different Time Scales and Granularity</td>
   </tr>
   <tr>
-  <td>2:35 - 2:55</td>
-  <td>Swanson</td>
-  <td>$300</td>
-  </tr>
-  <tr>
-  <td>3:00 - 3:30</td>
-  <td></td>
+    <td>Anders Holst, Juhee Bae, Alexander Karlsson and Mohamed-Rafik Bouguelia</td>
+  </tr>  	
+
+	<tr>
+  <td rowspan='2'>  3:00 - 3:30</td>
+  <td rowspan='2'></td>
   <td>Coffee Break</td>
   </tr>
-<tr>
-  <td>3:30 - 3:50</td>
-  <td></td>
-  <td></td>
-  </tr>
+  
 	<tr>
-  <td>3:50 - 4:10</td>
-  <td></td>
-  <td></td>
+  <td rowspan='2'>3:30 - 3:50 </td>
+  <td rowspan='2'>Paper</td>
+  <td>Incremental Causal Discovery and Visualization</td>
   </tr>
+  <tr>
+    <td>Anders Holst, Sepideh Pashami and Juhee Bae</td>
+  </tr>  	
 
 	<tr>
-  <td>4:10 - 4:30</td>
-  <td></td>
-  <td></td>
+  <td rowspan='2'> 3:50 - 4:10   </td>
+  <td rowspan='2'>Paper</td>
+  <td>Interactive feature extraction for diagnostic trouble codes in predictive maintenance A case study from automotive domain</td>
   </tr>
+  <tr>
+    <td>Parivash Pirasteh, Sławomir Nowaczyk and Sepideh Pashami</td>
+  </tr>  	
 
 	<tr>
-  <td>4:30-5:00</td>
+  <td rowspan='2'> 4:10 - 4:30    </td>
+  <td rowspan='2'>Paper</td>
+  <td>Interactive-COSMO: Consensus Self-Organized Models for Fault Detection with Expert Feedback</td>
+  </tr>
+  <tr>
+    <td>Ece Calikus, Yuantao Fan, Slawomir Nowaczyk and Anita Sant'Anna</td>
+  </tr>  	
+
+	<tr>
+  <td rowspan='2'> 4:30-5:00   </td>
+  <td rowspan='2'>Discussion</td>
   <td></td>
-  <td>Discussion</td>
   </tr>
 
 </table>
@@ -216,9 +236,7 @@ This talk will introduce a framework for Visual Analytics of big complex network
 <li>WSDM: Feb. 11. 2019 -- Feb. 15. 2019
 </ul>
 <hr>  
-	
 
-<hr> 
 	  <a id="committee"></a> 
 	  <h1>Committee</h1>
 
